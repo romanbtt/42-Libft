@@ -26,31 +26,31 @@ This project consists of rewriting the functions of libc, understanding them and
 | ft_lstnew | t_list *ft_lstnew(void *content) | Create a new linked list |
 | ft_lstsize | int ft_lstsize(t_list *lst) | Return the lenght of a linked list |
 | ft_memccpy | void	*ft_memccpy(void *dest, const void *src, int c, size_t n) | Copy no more than n bytes from memory area src to memory area dest, stopping when the character c is found |
-| ft_memchr | void	*ft_memchr(const void *s, int c, size_t n) | Scan the initial n bytes of the memory area pointed to by the string for the first instance of the char |
+| ft_memchr | void *ft_memchr(const void *s, int c, size_t n) | Scan the initial n bytes of the memory area pointed to by the string for the first instance of the char |
 | ft_memcmp | int ft_memcmp(const void *s1, const void *s2, size_t n) | Compare the first n bytes of the memory areas of the first string and the second |
-| ft_memcpy | void	*ft_memcpy(void *dest, const void *src, size_t n) | Copy n bytes from memory area src to memory area dest |
-
-| ft_memmove | upper case to lower case letter conversion |
-| ft_memset | lower case to upper case letter conversion |
-| ft_putchar_fd | checks for any printable character including space |
-| ft_putendl_fd | checks for white-space characters |
-| ft_split_isspace | upper case to lower case letter conversion |
-| ft_split | lower case to upper case letter conversion |
-| ft_strchr | checks for an alphanumeric character |
-| ft_strdel | checks for an alphabetic character |
-| ft_strdup | checks for a digit (0 through 9) |
-| ft_strjoin | checks for any printable character including space |
-| ft_strlcat | checks for white-space characters |
-| ft_strlcpy | upper case to lower case letter conversion |
-| ft_strlen | lower case to upper case letter conversion |
-| ft_strmapi | checks for any printable character including space |
-| ft_strncmp | checks for white-space characters |
-| ft_strnstr | upper case to lower case letter conversion |
-| ft_strrchr | lower case to upper case letter conversion |
-| ft_strtrim | checks for an alphanumeric character |
-| ft_substr | checks for an alphabetic character |
-| ft_swap | checks for a digit (0 through 9) |
-| ft_tolower | checks for any printable character including space |
-| ft_toupper | checks for white-space characters |
-| ft_uintlen | upper case to lower case letter conversion |
-| ft_ullitoa_base | lower case to upper case letter conversion |
+| ft_memcpy | void *ft_memcpy(void *dest, const void *src, size_t n) | Copy n bytes from memory area src to memory area dest |
+| ft_memmove | void	*ft_memmove(void *dest, const void *src, size_t n) | upper case to lower case letter conversion |
+| ft_memset | void *ft_memset(void *s, int c, size_t n) | lower case to upper case letter conversion |
+| ft_putchar_fd | void ft_putchar_fd(char c, int fd) | checks for any printable character including space |
+| ft_putendl_fd | void ft_putendl_fd(char *s, int fd) | checks for white-space characters |
+| ft_realloc | void	*ft_realloc(void *ptr, size_t size) | checks for white-space characters |
+| ft_split_isspace | char **ft_split_isspace(char const *s) | upper case to lower case letter conversion |
+| ft_split | char **ft_split(char const *s, char c) | lower case to upper case letter conversion |
+| ft_strchr | char *ft_strchr(const char *s, int c) | checks for an alphanumeric character |
+| ft_strdel | void ft_strdel(char **s) | checks for an alphabetic character |
+| ft_strdup | char *ft_strdup(const char *s) | checks for a digit (0 through 9) |
+| ft_strjoin | char	*ft_strjoin(char const *s1, char const *s2) | checks for any printable character including space |
+| ft_strlcat | size_t ft_strlcat(char *dst, const char *src, size_t size) | checks for white-space characters |
+| ft_strlcpy | size_t ft_strlcpy(char *dst, const char *src, size_t size) | upper case to lower case letter conversion |
+| ft_strlen | size_t ft_strlen(const char *s) | lower case to upper case letter conversion |
+| ft_strmapi | char	*ft_strmapi(char const *s, char (*f)(unsigned int, char)) | checks for any printable character including space |
+| ft_strncmp | int ft_strncmp(const char *s1, const char *s2, size_t n) | checks for white-space characters |
+| ft_strnstr | char	*ft_strnstr(const char *big, const char *little, size_t len) | upper case to lower case letter conversion |
+| ft_strrchr | char	*ft_strrchr(const char *s, int c) | lower case to upper case letter conversion |
+| ft_strtrim | char	*ft_strtrim(char const *s1, char const *set) | checks for an alphanumeric character |
+| ft_substr | char *ft_substr(char const *s, unsigned int start, size_t len) | checks for an alphabetic character |
+| ft_swap | void ft_swap(void *a, void *b, size_t len) | checks for a digit (0 through 9) |
+| ft_tolower | int ft_tolower(int c) | checks for any printable character including space |
+| ft_toupper | int ft_toupper(int c) | checks for white-space characters |
+| ft_uintlen | int ft_uintlen(unsigned int nb, int base) | upper case to lower case letter conversion |
+| ft_ullitoa_base | char *ft_ullitoa_base(unsigned long long int nb, int base) | lower case to upper case letter conversion |
