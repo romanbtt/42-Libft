@@ -3,7 +3,7 @@ This project consists of rewriting the functions of libc, understanding them and
 
 |  Function | Prototype | Description |
 | ------------ | ------------ | ------------ |
-| ft_atoi | void	*ft_memccpy(void *dest, const void *src, int c, size_t n) | Convert a string to an integer |
+| ft_atoi | void *ft_memccpy(void *dest, const void *src, int c, size_t n) | Convert a string to an integer |
 | ft_bzero | Zero a byte string |
 | ft_calloc | A memory allocator |
 | ft_delchar | Rewrite a string without a specific char |
