@@ -12,8 +12,8 @@ This project consists of rewriting the functions of libc, understanding them and
 
 |  Function | Prototype | Description |
 | :-: | :-: | :-: |
-| ft_atoi | int	ft_atoi(const char *nptr) | Convert a string to an integer. |
-| ft_bzero | void ft_bzero(void *s, size_t n) | Zero a byte string. |
+| ft_atoi | `int	ft_atoi(const char *nptr)` | Convert a string to an integer. |
+| ft_bzero | `void ft_bzero(void *s, size_t n)` | Zero a byte string. |
 | ft_calloc | void *ft_calloc(size_t nmemb, size_t size) | A memory allocator. |
 | ft_delchar | void ft_delchar(char *str, char set) | Rewrite a string without a specific char. |
 | ft_delspace | void ft_delspace(char *str) | Rewrite a string without spaces. |
