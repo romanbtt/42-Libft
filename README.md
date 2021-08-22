@@ -1,6 +1,15 @@
 # Libft
 This project consists of rewriting the functions of libc, understanding them and learning how to use them. This library will be used in all future projects using the C language.
 
+## Compilation
+ make
+ 
+## Linking
+
+gcc -L. -lft main.c
+ 
+## Functions
+
 |  Function | Prototype | Description |
 | :-: | :-: | :-: |
 | ft_atoi | int	ft_atoi(const char *nptr) | Convert a string to an integer. |
